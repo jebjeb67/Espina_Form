@@ -1,0 +1,123 @@
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    
+}
+.signupbody{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+
+    
+}
+.signupform{
+    margin-top: 7rem;
+    margin-left: 25rem;
+    margin-bottom: 9rem;
+    margin-right: 27rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+form{
+    margin-top: 9rem;
+    margin-left: 25rem;
+    margin-bottom: 9rem;
+    margin-right: 27rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    
+}
+#loginbtn{
+    position: absolute;
+    white-space: nowrap;
+    font-size: 1rem;
+    border-radius: 20px;
+    transition: all .2s linear;
+    height: 2rem;
+    width: 4rem;
+    border: none;
+    background: skyblue;
+    color: white;
+}
+#loginbtn:hover{
+   color: white;
+   background: #fed6e3;
+}
+#clearbtn:hover{
+    color: white;
+    background: #fed6e3;
+ }
+#clearbtn{
+    position: absolute;
+    white-space: nowrap;
+    font-size: 1rem;
+    border-radius: 20px;
+    transition: all .2s ease;
+    height: 2rem;
+    width: 4rem;
+    border: none;
+    background: skyblue;
+    color: white;
+    margin-left: 7rem;
+}
+.sbtn{
+    position: absolute;
+    white-space: nowrap;
+    font-size: 1rem;
+    border-radius: 20px;
+    transition: all .2s linear;
+    height: 2rem;
+    width: 4rem;
+    border: none;
+    background: skyblue;
+    color: white;
+    margin-top: 13px;
+
+}
+.signtolog{
+    margin-top: 1rem;
+}
+.txtbox input{
+
+    border-radius: 20rem;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: #a8edea;
+}
+label{
+    margin-top: 1rem;
+    margin-left: 0%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    
+}
+.signupbody label{
+    margin-top: 1rem;
+    margin-left: 0%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+
